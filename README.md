@@ -13,3 +13,5 @@
     - 其他子目录随意安排即可
     
  例如：wangcan_notes.md 
+
+**注意：github pull下来后，创建好自己的.md文件，不要修改别人的.md文件**
