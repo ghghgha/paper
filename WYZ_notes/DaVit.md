@@ -42,7 +42,20 @@ Davit代码：https://github.com/dingmyu/davit
 
 要点总结：https://zhuanlan.zhihu.com/p/500202422
 
-个人阅读总结：
+额外总结：
+
+![image](https://user-images.githubusercontent.com/118878610/232385824-e09dd40a-d82e-41be-b5e4-f454afa41fca.png)
+
+
+1.双注意力模块在每个阶段持续提升性能。   
+
+2.第二阶段的双重注意力提高最多，因为早期阶段需要更多的全局信息。第一阶段相对较小的改进是局部纹理特征主导了网络的浅层部分。
+
+3.在所有四个阶段都 添加双重注意力时取得了最好的结果。
+
+![image](https://user-images.githubusercontent.com/118878610/232386075-1f091580-7db7-4221-ba5c-4fcbd19b6f34.png)
+
+可以看出先window注意力 后 channel  注意力效果最好
 
 
 
