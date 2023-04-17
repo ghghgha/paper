@@ -31,3 +31,21 @@ Factorized Attention Mechanism的缺点：
 计算量和内存消耗较大：传统注意力机制需要计算每个输入位置的注意力权重，导致计算量和内存消耗较大，可能无法适应较大的输入特征和较多的注意力头数目。
 
 可扩展性相对较弱：由于计算量和内存消耗的限制，传统注意力机制的可扩展性相对较弱，可能无法适应较大的输入特征和较多的注意力头数目。
+
+论文的前作网络大致概要：https://blog.csdn.net/wumenglu1018/article/details/95949039
+
+Davit代码：https://github.com/dingmyu/davit
+
+概要博文推荐：
+
+重点翻译：https://blog.csdn.net/qq_45128278/article/details/124491495
+
+要点总结：https://zhuanlan.zhihu.com/p/500202422
+
+个人阅读总结：
+
+
+
+
+
+
