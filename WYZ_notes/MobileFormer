@@ -1,0 +1,10 @@
+代码: pytorch版本 https://github.com/ACheun9/Pytorch-implementation-of-Mobile-Former
+
+博客: https://mp.weixin.qq.com/s/yo5KmB2Y7t2R4jiOKI87HQ
+
+视频讲解: https://www.bilibili.com/video/BV16Q4y1U7Rz?p=1
+
+知识点总结：
+
+1.特征的融合在bottleneck的瓶颈部位，这时的channel数目少，结构紧凑，融合信息稳定。channel数目上升融合后又要降维，会损失一部分信息。
+2.
