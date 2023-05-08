@@ -4,7 +4,16 @@
 
 视频讲解: https://www.bilibili.com/video/BV16Q4y1U7Rz?p=1
 
-知识点总结：
+知识点补充：
+
+动态relu: https://blog.csdn.net/weixin_42096202/article/details/109727151 这种效果提升较大
 
 1.特征的融合在bottleneck的瓶颈部位，这时的channel数目少，结构紧凑，融合信息稳定。channel数目上升融合后又要降维，会损失一部分信息。
-2.
+
+2.网络轻量，可用于目标检测
+
+3.MobileNet和Transformer的并行设计，利用了MobileNet在局部处理和Transformer在全局交互方面的优势。
+
+4.Mobile-Former中的Transformer包含非常少的随机初始化的token导致计算成本低。
+
+5.论文中公式提到的线性映射通过分头降低了参数，双向桥的过程采用多头注意力容易被忽视
