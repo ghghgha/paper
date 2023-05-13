@@ -1,3 +1,7 @@
+博客: https://blog.csdn.net/amusi1994/article/details/124762999?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-124762999-blog-124238740.235%5Ev34%5Epc_relevant_increate_t0_download_v2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-124762999-blog-124238740.235%5Ev34%5Epc_relevant_increate_t0_download_v2&utm_relevant_index=2
+
+      https://zhuanlan.zhihu.com/p/545324598
+
 1. 传统OCR非端到端的坏处:
 
    1. 任务的错误积累，检测结果不精确影响文字的识别
@@ -17,3 +21,8 @@
    1.检测是简单地基于输入特征中的视觉信息，则检测器容易被背景噪声分心，提出不一致的检测
    
    2.通过共享主干，检测和识别之间的相互作用是不够的，因为检测器既优化识别损失，识别器利用检测特征。
+   
+4.不规则的物体的检测:
+
+   在SCUT-CTW1500上，如表6所示，虽然在文本检测方面可以达到最好的性能，但端到端文本定位结果仍然存在空白。
+   
